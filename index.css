@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@media(min-width:1024px){
+
 * {
     font-family: inter;
 }
@@ -9,12 +11,12 @@ body {
 }
 
 .header__container {
-    width: (1, 728px)px;
-    height: (100px)px;
+    width: 70%;
     padding: 20px 236px 20px 236px;
     border-bottom: solid 2px;
     border-color: var(--brand-1);
     background-color: var(--gray-1);
+    position: fixed;
     display: flex;
     justify-content: space-between;
 }
@@ -30,6 +32,7 @@ body {
     border: solid 1px;
     Padding: 20px, 32px, 20px, 32px;
     color: var(--gray-7);
+    
 }
 
 .span {
@@ -131,6 +134,7 @@ p {
     height: (280px)px;
     padding: 0px 87px 0px 0px;
     gap: 33px;
+    position: fixed;
 }
 
 .button__left-side {
@@ -240,6 +244,7 @@ footer {
 }
 .cadaster__modal.visivel{
     opacity: 1;
+    position: fixed;
 }
 
 
@@ -293,4 +298,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
 }
